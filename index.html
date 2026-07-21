@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Depósito Cero</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0a0a0a;
+    color: #e8e8e8;
+    font-family: 'Courier New', monospace;
+    min-height: 100vh;
+    padding: 60px 20px;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 60px; }
+  h1 {
+    font-size: 32px;
+    letter-spacing: 6px;
+    color: #00FF5A;
+    margin-bottom: 12px;
+  }
+  p.sub { font-size: 12px; color: #666; letter-spacing: 2px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+  a.card {
+    display: block;
+    border: 1px solid #262626;
+    padding: 24px;
+    text-decoration: none;
+    color: #e8e8e8;
+    transition: border-color 0.2s;
+  }
+  a.card:hover { border-color: #00FF5A; }
+  a.card .n { font-size: 10px; color: #00FF5A; letter-spacing: 2px; }
+  a.card h2 { font-size: 18px; margin-top: 8px; font-weight: normal; }
+  footer { text-align: center; margin-top: 60px; font-size: 10px; color: #444; letter-spacing: 1px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>DEPÓSITO CERO</h1>
+    <p class="sub">Museo Colección García Uriburu — Maldonado, 2026</p>
+  </header>
+
+  <div class="grid">
+    <a class="card" href="botellas/arroyo-solis-grande.html"><span class="n">01</span><h2>Arroyo Solís Grande</h2></a>
+    <a class="card" href="botellas/laguna-del-sauce.html"><span class="n">02</span><h2>Laguna del Sauce</h2></a>
+    <a class="card" href="botellas/playa-solis.html"><span class="n">03</span><h2>Playa Solís</h2></a>
+    <a class="card" href="botellas/afluente-las-flores.html"><span class="n">04</span><h2>Afluente Las Flores</h2></a>
+    <a class="card" href="botellas/cuneta-ruta-9.html"><span class="n">05</span><h2>Cuneta Ruta 9</h2></a>
+    <a class="card" href="botellas/canada-de-aparicio.html"><span class="n">06</span><h2>Cañada de Aparicio</h2></a>
+    <a class="card" href="botellas/playa-brava-jose-ignacio.html"><span class="n">07</span><h2>Playa Brava, José Ignacio</h2></a>
+    <a class="card" href="botellas/laguna-garzon.html"><span class="n">08</span><h2>Laguna Garzón</h2></a>
+  </div>
+
+  <footer>Martín Fernández Navarro, 2026</footer>
+</div>
+</body>
+</html>
